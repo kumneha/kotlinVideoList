@@ -12,6 +12,8 @@ import android.widget.LinearLayout
 
 class MainActivity : AppCompatActivity() {
     val users = ArrayList<User>()
+    val users1 = ArrayList<User>()
+
     private var adapter: CustomAdapter? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
